@@ -1,0 +1,19 @@
+{
+  "name": "taller6-backend",
+  "version": "1.0.0",
+  "description": "Configuración del taller 6",
+  "main": "index.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "dev": "node --watch servidor.js",
+    "test": "echo \"Error: no test specified\"&& exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
